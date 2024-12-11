@@ -135,7 +135,7 @@ export default function UserHome({ userData }) {
 //           onClick={logOut}
 //           className="btn btn-primary"
 //           style={{ marginTop: 10 }}
-//         >
+//       >
 //           Log Out
 //         </button>
 //       </div>
