@@ -118,7 +118,7 @@ export default function Login() {
         e.preventDefault();
         setMessage(""); // Clear previous messages
 
-        fetch("http://127.0.0.1:5000/login", {
+        fetch("https://render-flask-2yo0.onrender.com/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -157,7 +157,7 @@ export default function Login() {
     // Handle GitHub OAuth login
     const handleGitHubLogin = () => {
         // Redirect to the backend GitHub OAuth route
-        window.location.href = "http://127.0.0.1:5000/login/github";
+        window.location.href = "https://render-flask-2yo0.onrender.com//login/github";
     };
 
     return (

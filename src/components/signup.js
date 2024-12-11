@@ -11,7 +11,7 @@ export default function SignUp() {
         e.preventDefault();
         setMessage(""); // Clear any previous messages
 
-        fetch("http://127.0.0.1:5000/register", {
+        fetch("https://render-flask-2yo0.onrender.com/register", {
             method: "POST",
             crossDomain: true,
             headers: {

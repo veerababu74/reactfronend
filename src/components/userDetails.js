@@ -100,7 +100,7 @@ export default function UserDetails() {
       return;
     }
 
-    fetch("http://127.0.0.1:5000/profile", {
+    fetch("https://render-flask-2yo0.onrender.com/profile", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
